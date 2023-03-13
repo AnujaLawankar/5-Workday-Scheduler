@@ -1,6 +1,22 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  background-color: #4b4747;
+}
+
+.display-3 {
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.lead {
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#currentDay {
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 textarea {
@@ -10,6 +26,8 @@ textarea {
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
 }
 
 .description {

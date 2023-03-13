@@ -1,99 +1,84 @@
-# 05 Third-Party APIs: Work Day Scheduler
+## Work Day Scheduler
 
-## Your Task
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+## Description
+1. Work Day Scheduler is used to schedule business hours for an empolyees.
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+2. When empolyee open the work day scheduler then the current day was displayed at the top of the calender.
 
-## User Story
+3. There were several blocks of time which represent the busniss hours, This scheduler is depends on 24 hours of time clock.
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+4. When the employee scroll down then he can saw these time block are represented with different colors according to the past,persent and future.
+here, "past" was diplayed in "gery" color, the "persent" was displayed in "red" color and the future was displayed in "green" color.
+t
 
-## Acceptance Criteria
+5. If the empolyee want to schedule a task for particular time period, Then he can add the task infront of time block and can save the event by clicking on save button at the end.
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+6. When the page is reload the employee can see there tasks which they scheduled alerady.
 
-The following animation demonstrates the application functionality:
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+## steps I followed:-
 
-## Grading Requirements
+1. Clone starter code from the remote repository "crispy-octo-meme" to local repository "workday-scheduler".
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+2. Manipulated the code according to the Acceptance Criteria.
 
-This Challenge is graded based on the following criteria:
+3. Created "New Repository" in "GitHub" and named it as, "workday-scheduler".
 
-### Technical Acceptance Criteria: 40%
+4. Uploaded all the files from local repository to "GitHub". The "README , HTML, CSS" files were already in remote repository.(no need to create)
 
-* Satisfies all of the above acceptance criteria plus the following:
+5. Navigate to "GitHub" repository "workday-scheduler" using "Git Bash".
 
-  * Uses a date utility library to work with date and time
+6. Added description, screenshots in  "README"  file.
 
-### Deployment: 32%
+7. Performed, "add", "commit", "pull", "push", operations on source code.
 
-* Application deployed at live URL
+8.  Deployed and assigned the "URL" to the website.
 
-* Application loads with no errors
+9. Added screenshot for final website appearance and Git Bash commands.
 
-* Application GitHub URL submitted
 
-* GitHub repo contains application code
 
-### Application Quality: 15%
+## URLs:-
+Here, you can find the webpage.
 
-* Application user experience is intuitive and easy to navigate
+workday-scheduler application's URL:-
 
-* Application user interface style is clean and polished
+Here, you can find the GitHub URL:-
+GitHub URL:-
 
-* Application resembles the mock-up functionality provided in the Challenge instructions
 
-### Repository Quality: 13%
+## Installation
 
-* Repository has a unique name
+N/A
 
-* Repository follows best practices for file structure and naming conventions
+## Usage
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+N/A
 
-* Repository contains multiple descriptive commit messages
+## Credits
 
-* Repository contains quality README file with description, screenshot, and link to deployed application
+N/A
 
-## Review
+## License
 
-You are required to submit the following for review:
+N/A
 
-* The URL of the deployed application
+## Assets
 
-* The URL of the GitHub repository, with a unique name and a README describing the project
+The following image demonstrates the web application appearance:
+1.  Work Day Scheduler web appearance. Which displayed day and date at the top.
+![Website](./Assets/images/screenshot1.png)
 
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+2. Many color blocks which represent time. The grey block represent past time, the red repersent the persent time and the green represent the future time for the day.
+
+![Website](./Assets/images/screenshot2.png)
+
+3. In the future block employee can schedule or add any task which they want to complete. There is also save button to saved the changes at the end
+![Website](./Assets/images/screenshot3.png)
+
+4. Save button, saved the task even after the page is reload.
+![Website](./Assets/images/screenshot4.png)
+
+5. All the tasks to be performed were saved in the local storage even after the page is reloaded.
+![Website](./Assets/images/screenshot5.png)
