@@ -35,7 +35,7 @@ $(function () {
 
   displayDate();
   displaycolor();
-  displayText();
+  // displayText();
 
 
 });
@@ -93,27 +93,25 @@ function displaycolor() {
 }
 
 
-// Assign saveBtn click listener for user input and get row id and save to local storage
-$(".saveBtn").on("click", function () {
-  var textE1 = $(this).siblings(".description").val();
 
 
-  var time = $(this).parent().attr("id");
-
-  // Save text in local storage
-  localStorage.setItem(time, textE1);
+// Add click listener to each save button
+$('.saveBtn').on('click', function () {
+  // Get the id of the containing time block
+  const timeid = $(this).closest('.time-block').attr('id');
+  // Get the user input from the textarea
+  const textInput = $(this).siblings('.description').val();
+  // Save the user input in local storage using the id as the key
+  localStorage.setItem(timeid, textInput);
 });
 
-function displayText() {
-  // Loop over time blocks
-  $(".time-block").each(function () {
-
-    var timesection = $(this).attr("id");
-    $(this).children(".description").val(localStorage.getItem(timesection));
-  });
-}
-
-
-
+// Load saved data from local storage on page load
+$('.time-block').each(function () {
+  const id = $(this).attr('id');
+  const textsave = localStorage.getItem(id);
+  if (textsave) {
+    $(this).find('.description').val(textsave);
+  }
+});
 
 
