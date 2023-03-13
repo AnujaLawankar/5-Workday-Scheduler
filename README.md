@@ -58,11 +58,18 @@
 Here, you can find the webpage.
 
 
-workday-scheduler application's URL:-
+workday-scheduler application's URL:- 
+
+https://anujalawankar.github.io/workday-scheduler/
+
+
 
 
 Here, you can find the GitHub URL:-
-GitHub URL:-
+GitHub URL:- 
+
+https://github.com/AnujaLawankar/workday-scheduler
+
 
 
 
